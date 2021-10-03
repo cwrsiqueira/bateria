@@ -8,7 +8,6 @@ document.querySelector('.composer button').addEventListener('click', () => {
     if(song !== '') {
         let songArray = song.split('');
         playComposition(songArray);
-        alert('tocou');
     }
 })
 
